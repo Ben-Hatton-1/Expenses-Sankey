@@ -5,7 +5,7 @@ import matplotlib.colors
 from categories import get_categories
 
 # Load the data
-df = pd.read_excel("/Users/benhatton/Desktop/Mint_Transactions.xlsx")
+df = pd.read_excel("/path/to/your/excel/file.xlsx")
 
 # Filter data for the year 2022
 df_2022 = df[df['Date'].dt.year == 2022]
